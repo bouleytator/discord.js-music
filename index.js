@@ -12,7 +12,7 @@ const Request = require('request');
  */
 module.exports = function(client, options) {
 	// Get all options.
-	let PREFIX = (options && options.prefix) || '!';
+	let PREFIX = (options && options.prefix) || '.';
 	let GLOBAL = (options && options.global) || false;
 	let MAX_QUEUE_SIZE = (options && options.maxQueueSize) || 20;
 
